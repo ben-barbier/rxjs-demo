@@ -1,0 +1,273 @@
+[
+    {
+        "id": 10,
+        "name": "outils cski",
+        "mood": "faceHappy",
+        "logo": "logo_dashboard.gif",
+        "slogan": "Slogan de dashboard",
+        "agile": true,
+        "notes": "",
+        "site": "lys",
+        "nextDemo": 1473890400000,
+        "idDemande": 10,
+        "liens": [
+            {
+                "id": 40,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=150",
+                "type": "board retours"
+            },
+            {
+                "id": 41,
+                "lien": "http://jira.kiabi.fr:8080/browse/CSKIDASH-401",
+                "type": "jira"
+            },
+            {
+                "id": 39,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=127",
+                "type": "board sprint"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "patti",
+        "mood": "faceHappy",
+        "logo": "patti-logo.png",
+        "slogan": "Slogan de Patti",
+        "agile": true,
+        "notes": null,
+        "site": "hem",
+        "nextDemo": null,
+        "idDemande": 90,
+        "liens": [
+            {
+                "id": 24,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=137",
+                "type": "board sprint"
+            },
+            {
+                "id": 26,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=147",
+                "type": "board recette"
+            },
+            {
+                "id": 32,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=146",
+                "type": "board retours"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "echange",
+        "mood": null,
+        "logo": null,
+        "slogan": null,
+        "agile": false,
+        "notes": null,
+        "site": "lys",
+        "nextDemo": null,
+        "idDemande": null,
+        "liens": []
+    },
+    {
+        "id": 11,
+        "name": "rcp",
+        "mood": null,
+        "logo": null,
+        "slogan": null,
+        "agile": false,
+        "notes": null,
+        "site": "hem",
+        "nextDemo": null,
+        "idDemande": null,
+        "liens": []
+    },
+    {
+        "id": 14,
+        "name": "global",
+        "mood": null,
+        "logo": null,
+        "slogan": null,
+        "agile": false,
+        "notes": null,
+        "site": null,
+        "nextDemo": null,
+        "idDemande": null,
+        "liens": []
+    },
+    {
+        "id": 6,
+        "name": "nice",
+        "mood": "faceHappy",
+        "logo": "logo-nice.jpg",
+        "slogan": "Slogan de Nice",
+        "agile": true,
+        "notes": "",
+        "site": "hem",
+        "nextDemo": 1485471600000,
+        "idDemande": 85,
+        "liens": [
+            {
+                "id": 22,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=106",
+                "type": "board sprint"
+            },
+            {
+                "id": 27,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=107",
+                "type": "board recette"
+            },
+            {
+                "id": 31,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=108",
+                "type": "board retours"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "kim",
+        "mood": "faceHappy",
+        "logo": "logo_kim.jpg",
+        "slogan": "Slogan de Kim",
+        "agile": true,
+        "notes": "",
+        "site": "hem",
+        "nextDemo": 1484866800000,
+        "idDemande": 91,
+        "liens": [
+            {
+                "id": 34,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=86",
+                "type": "board recette"
+            },
+            {
+                "id": 35,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=88",
+                "type": "board retours"
+            },
+            {
+                "id": 38,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=84",
+                "type": "board sprint"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "oms",
+        "mood": "faceHappy",
+        "logo": null,
+        "slogan": null,
+        "agile": true,
+        "notes": "A faire (en Slack Day ?) : \n  - Retravailler au moins 1 modale en exemple dans le client oms-ng pour coller à la nouvelle charte graphique\n  - Restructurer le serveur PoChangeWS (1 Package par type d'événement/modification)\n  - PoChangeWS : Externaliser les messages d'erreur\n  - Client Po Change : Créer un composant pour la partie sur fond blanche de chaque commande, dans les modales.\n  - Client Po Change : Regrouper dans du code commun ce qui est pour l'instant distinct entre les trois modales. (Notamment les libellés qui peuvent êtres partagés\n  - Accès à Comet via OMS : Externaliser les URL dans des fichiers properties d'un projet client.config\n\nPoints à aborder au cours de la rétro ?\n  - PCH - 08/03/2017 - Forte pollution en retours non anticipée (LSD, Orion : bibliothèque coloris)\n  - PCH - 08/03/2017 - Pollution non prévue en configuration d'environnement (OMS_lsd, OMS_int)\n\nestimation trop light sur oms-ng -> penser à prendre en compte la montée en comp",
+        "site": "hem",
+        "nextDemo": 1490223600000,
+        "idDemande": 92,
+        "liens": [
+            {
+                "id": 49,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=173",
+                "type": "board sprint"
+            },
+            {
+                "id": 50,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=175&projectKey=OMS",
+                "type": "board recette"
+            },
+            {
+                "id": 51,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=174&projectKey=OMS",
+                "type": "board retours"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "vespa",
+        "mood": "faceHappy",
+        "logo": null,
+        "slogan": null,
+        "agile": true,
+        "notes": "attentions aux fournisseurs manquants dans le VMS",
+        "site": "hem",
+        "nextDemo": 1482966000000,
+        "idDemande": 88,
+        "liens": [
+            {
+                "id": 52,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=114",
+                "type": "board sprint"
+            },
+            {
+                "id": 53,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=115&projectKey=VESPA",
+                "type": "board recette"
+            },
+            {
+                "id": 54,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=116&projectKey=VESPA",
+                "type": "board retours"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Ventes - K-Store Jr",
+        "mood": "faceHappy",
+        "logo": "logo_vente.jpg",
+        "slogan": null,
+        "agile": true,
+        "notes": "https://docs.google.com/spreadsheets/d/1AP-_A3SkQ1pQW1uUqG1c6qescZWSRljtzq6puHOaILc/edit#gid=0\n\nTaches reporter :\n\n- 126\n- 328\n- 167\n- 168\n- 8\n- 283\n\nTotal = 5.25 jours/Homme",
+        "site": "lys",
+        "nextDemo": 1487545200000,
+        "idDemande": 96,
+        "liens": [
+            {
+                "id": 42,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=155",
+                "type": "board sprint"
+            },
+            {
+                "id": 43,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=158",
+                "type": "board retours"
+            },
+            {
+                "id": 44,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=157",
+                "type": "board recette"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "smack html5",
+        "mood": "faceHappy",
+        "logo": null,
+        "slogan": null,
+        "agile": true,
+        "notes": null,
+        "site": "lys",
+        "nextDemo": null,
+        "idDemande": null,
+        "liens": [
+            {
+                "id": 57,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=184&projectKey=SMACKFRONT",
+                "type": "board retours"
+            },
+            {
+                "id": 55,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=183",
+                "type": "board sprint"
+            },
+            {
+                "id": 56,
+                "lien": "http://jira.kiabi.fr:8080/secure/RapidBoard.jspa?rapidView=185&projectKey=SMACKFRONT",
+                "type": "board recette"
+            }
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[{
+    "id": 1,
+    "name": "bob",
+    "agile": true,
+    "tags": ["top", "bad"]
+}, {
+    "id": 2,
+    "name": "john",
+    "agile": true,
+    "tags": ["top", "true"]
+}, {
+    "id": 3,
+    "name": "dylan",
+    "agile": false,
+    "tags": ["great", "toto"]
+}]
